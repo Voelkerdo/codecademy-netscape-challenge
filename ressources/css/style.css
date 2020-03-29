@@ -1,0 +1,151 @@
+* {
+  font-family: sans-serif;
+}
+
+a {
+  color: #0a7c86;
+}
+
+section {
+  display: inline-block;
+}
+
+.banner {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 90px;
+  background-color: #0a7c86;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 3px 0;
+  border-bottom: 3px solid #aeaeae;
+}
+
+.nav-links li {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+main, footer {
+  margin: 0 auto;
+  width: 80%;
+  display: flex;
+}
+
+.main-content {
+  width: 65%;
+  display: inline-block;
+}
+
+.overview, .features {
+  min-width: 100%;
+  margin: 50px 0;
+}
+
+.features {
+  margin: 25px 0;
+}
+
+.overview h1 {
+  font-size: 30px;
+  color: #b27c2c;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.overview img {
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.paragraph-text {
+  color: #aeaeae;
+  line-height: 1.2;
+}
+
+.overview ul, .overview li, .overview a {
+  display: inline-block;
+  color: #aeaeae;
+}
+
+.feature-item {
+  margin: 10px 0; 
+}
+
+.feature-description {
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.feature-description ul li {
+  list-style: none;
+  color: #aeaeae;
+}
+
+.feature-description ul li::before {
+  content: "\2022";
+  color: #b27c2c;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin: 5px 5px;
+}
+
+.side-content {
+  display: inline-block;
+  width: 30%;
+  margin: 50px 0;
+}
+
+.side-content h1 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #aeaeae;
+}
+
+.picture-box img {
+  margin: 10px 0;
+}
+
+.screenshots a {
+  text-align: right;
+  display: block;
+}
+
+aside {
+  margin: 50px 0;
+  border: 2px solid #09717a;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+aside .information h3 {
+  font-weight: 600;
+}
+
+aside img {
+  height: 35px;
+}
+
+footer {
+  text-align: right;
+  border-top: 3px solid #aeaeae;
+  display: block;
+}
+
+footer b {
+  font-weight: 600;
+  color: #000;
+}

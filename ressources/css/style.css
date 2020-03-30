@@ -6,6 +6,10 @@ a {
   color: #0a7c86;
 }
 
+a:hover {
+  color: #b27c2c;
+}
+
 section {
   display: inline-block;
 }
@@ -77,6 +81,10 @@ h2 {
 .overview ul, .overview li, .overview a {
   display: inline-block;
   color: #aeaeae;
+}
+
+.overview a:hover {
+  color: #0a7c86;
 }
 
 .feature-item {
